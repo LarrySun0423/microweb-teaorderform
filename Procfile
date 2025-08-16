@@ -1,1 +1,1 @@
-web: python teaorderform.py
+web: gunicorn teaorderform:app
